@@ -22,7 +22,7 @@ pipeline {
                                 configName: 'staging',
                                 sshCredentials: [
                                     username: "cloud_user",
-                                    encryptedPassphrase: 
+                                    encryptedPassphrase: ""
                                 ], 
                                 transfers: [
                                     sshTransfer(
@@ -54,7 +54,7 @@ pipeline {
                                 configName: 'production',
                                 sshCredentials: [
                                     username: "cloud_user",
-                                    encryptedPassphrase: 
+                                    encryptedPassphrase: ""
                                 ], 
                                 transfers: [
                                     sshTransfer(
