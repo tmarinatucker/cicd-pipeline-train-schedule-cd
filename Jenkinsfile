@@ -53,8 +53,8 @@ pipeline {
                             sshPublisherDesc(
                                 configName: 'production',
                                 sshCredentials: [
-                                    username: "$USERNAME",
-                                    encryptedPassphrase: "$USERPASS"
+                                    username: "cloud_user",
+                                    encryptedPassphrase: ""
                                 ], 
                                 transfers: [
                                     sshTransfer(
